@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    font-weight: 300;
+}
+
+p {
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1065px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+
+.header {
+    background-color: #F8F8F8;
+    padding-bottom: 168px;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-text {
+    align-self: flex-start;
+    padding-top: 104px;
+}
+
+.header-model {
+    font-size: 24px;
+    line-height: 186%;
+    color: #161515;
+    margin-bottom: 53px;
+}
+
+.title {
+    font-size: 250px;
+    line-height: 230px;
+    color: #272727;
+    margin-bottom: 43px;
+    font-weight: 300;
+}
+
+.header-description {
+    font-size: 32px;
+    line-height: 155%;
+    color: #161515;
+    margin-bottom: 61px;
+}
+
+.header-btn a {
+    font-size: 32px;
+    line-height: 29px;
+    color: #FFF;
+    background-color: #161515;
+    padding: 26px 73px;
+    display: inline-block;
+}
+
+.header-btn span {
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #272727;
+    padding: 26px 27px;
+    background-color: #FFF;
+    margin-left: -4px;
+}
+
+/* Header */
+
+/* Models */
+
+.models {
+    padding: 43px 0 59px;
+    text-align: center;
+}
+
+.models-popular {
+    font-size: 24px;
+    line-height: 186%;
+}
+
+.models-title {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 112.5%;
+    margin-bottom: 84px;
+}
+
+.models-item {
+    max-width: 531px;
+    margin: 0 auto;
+}
+
+.models-item:first-child {
+    margin-bottom: 85px;
+}
+
+.item-img {
+    padding: 110px 70px;
+    background-color: #F8F8F8;
+    margin-bottom: 67px;
+}
+
+.item-img img {
+    max-width: 100%;
+}
+
+.models-item h3 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.models-item p {
+    font-size: 32px;
+    line-height: 155%;
+    color: #161515;
+}
+
+/* Models */
+
+/* Footer */
+
+.footer {
+    padding: 59px 0 142px;
+    text-align: center;
+}
+
+.footer-title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 186%;
+    text-transform: capitalize;
+    color: #161515;
+}
+
+.footer-inner hr {
+    width: 178px;
+    margin: 0 auto 49px;
+}
+
+.footer-inner p {
+    font-size: 24px;
+    line-height: 170%;
+    color: #161515;
+    max-width: 515px;
+    margin: 0 auto;
+}
+
+.footer-inner p a {
+    color: #BB8B5D;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+/* Footer */
+
+@media (max-width: 1100px) {
+    .header-inner {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .header-img {
+        display: none;
+    }
+}
+
+@media (max-width: 850px) {
+    .title {
+        font-size: 150px;
+        margin-bottom: 0;
+    }
+
+    .header-model {
+        margin-bottom: 15px;
+    }
+
+    .header-text {
+        padding-top: 50px;
+    }
+
+    .header {
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 460px) {
+    .header-btn a {
+        padding: 23px 50px;
+    }
+
+    .header-btn span {
+        display: none;
+    }
+
+    .title {
+        font-size: 80px;
+        line-height: 100px;
+    }
+
+    .header-description {
+        font-size: 27px;
+    }
+
+    .models-title {
+        font-size: 50px;
+        margin-bottom: 60px;
+    }
+
+    .models-item p,
+    .footer-description {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .footer {
+        padding-bottom: 70px;
+    }
+}
